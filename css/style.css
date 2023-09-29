@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    box-sizing: border-box;
+    padding: 20px 10px;
+
+}
+
+header{
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+
+.menu_items{
+    display: none;
+}
+
+.main-article{
+max-width: 100%;   
+}
+
+.div_article {
+    display: flex; /* Usar flexbox para alinear la imagen y el contenido */
+    margin-bottom: 20px; /* Espacio entre cada artículo */
+}
+
+.div_article img {
+    width: 150px; /* Ancho de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el contenido */
+}
+
+.article-content {
+    display: inline-block; /* Hacer que el contenido esté en línea */
+    vertical-align:  top; /* Alinear el contenido en la parte superior de la imagen */
+}
+
+.article-content h3 {
+    margin: 0; /* Eliminar el margen superior del encabezado */
+}
+
+.article-content p {
+    margin: 0; /* Eliminar el margen superior del párrafo */
+    color: hsl(236, 13%, 42%);
+}
+
+.menu_items{
+    display: none;
+}

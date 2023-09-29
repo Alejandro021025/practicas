@@ -1,0 +1,193 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(243, 234, 227, 1.00);
+  font-size: 14px;
+}
+
+section .container {
+  display: flex;
+  justify-content: center;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  margin: 8rem 0;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  text-align: center;
+  cursor: pointer;
+  height: 300px;
+  
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative; 
+}
+
+
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  top: 0; 
+  left: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 10px; 
+  margin-bottom: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+section article {
+  transition: all 0.5s linear;
+  background-color: hsl(0, 0%, 100%);
+  margin: 2rem 0;
+  width: 550px;
+  
+  border-radius: 0.4rem;
+  padding: 0.25rem 0;
+  text-align: center;
+  margin: 2rem 1rem;
+ 
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.pa {
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80%;
+  
+  margin-bottom: 0.1px;
+}
+
+.pap {
+  line-height: 1;
+  font-size: normal;
+  align-items: center;
+  white-space: pre-line;
+  padding: 1px;
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+footer section {
+  float: right;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  padding: 10px 30px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin: 10px auto;
+}
+
+button:hover {
+  background-color: hsl(212, 21%, 14%) ;
+}
+
+.price-container {
+  display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 50%; 
+    padding: 0 1%;
+}
+
+h4 {
+  float: left;
+  color: rgba(75, 128, 108, 255);
+  font-size: 1rem;
+  font-size: 70px;
+  margin: 0;
+}
+
+h6 {
+  text-decoration: line-through;
+  font-size: 0.8rem;
+  margin: 0;
+  margin-left: 10px;
+  color: hsl(228, 12%, 48%);
+}
+
+.icon {
+  width: 16px;
+  height: auto;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.discount {
+    text-decoration: line-through;
+    font-size: 0.8rem;
+    color: hsl(228, 12%, 48%);
+}
+
+
+@media (max-width: 375px) {
+
+  body {
+      font-size: 16px;
+  }
+
+  .container {
+      padding: 10px;
+  }
+
+  .post {
+      text-align: center;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  body {
+      font-size: 18px;
+  }
+
+  .container {
+      max-width: 1440px;
+      margin: 0 auto;
+  }
+}
